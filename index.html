@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GES487 Tutorial by AJM</title>
+<title>Lab 8</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
 crossorigin=""/>
@@ -18,13 +18,13 @@ html, body { margin: 0; padding: 0; height: 100%; }
 <div id="tutorialmap"></div>
 <script type="text/javascript">
 var map = L.map('tutorialmap', {
-center: [41.980, -87.717],
-zoom: 15,
+center: [41.842297, -87.671592],
+zoom: 10,
 minZoom: 4
 });
 var Esri_WorldGrayCanvas = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
 attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-maxNativeZoom: 16,
+maxNativeZoom: 11,
 maxZoom: 19
 }).addTo(map);
 var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
